@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './pages/Home';
 import App from "./App";
-// import { HashRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 // class Index extends React.Component{
 //   render(){
@@ -15,7 +15,7 @@ import App from "./App";
 // }
 
 ReactDOM.render(
-  // <HashRouter>
+  <HashRouter>
     <App />
-  // </HashRouter>
+  </HashRouter>
 ,document.getElementById('root'));

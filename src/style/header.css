@@ -4,6 +4,7 @@
     min-width: 1300px;
     justify-content: space-between;
     background-color: rgb(87, 87, 87);
+    position: relative;
 }
 
 .header-logo{
@@ -34,11 +35,15 @@
     list-style: none;
     margin-right: 30px;
 }
+.header-nav li:hover{
+    color: aquamarine;
+}
 
 .nav-li{
     margin-left: 20px;
     color: white;
 }
+
 
 #span{
     margin: auto;
