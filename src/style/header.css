@@ -14,7 +14,7 @@
 }
 
 .header-input{
-    height: 20px;
+    height: 25px;
     width: 200px;
     margin: auto;
 }
@@ -33,11 +33,10 @@
 .header-nav{
     display: flex;
     list-style: none;
+    margin: auto;
     margin-right: 30px;
 }
-.header-nav li:hover{
-    color: aquamarine;
-}
+
 
 .nav-li{
     margin-left: 20px;

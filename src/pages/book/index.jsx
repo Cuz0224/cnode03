@@ -1,7 +1,11 @@
-import React from 'react'
+import React,{Component} from "react";
+import data from "./data";
+import ViewTemplate from "../template/template";
 
-export default class Book extends React.Component{
+export default class Book extends Component{
     render(){
-        return "book"
+        return (<ViewTemplate
+            data = {data}
+        />);
     }
 }

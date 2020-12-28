@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import data from "./data"
 import '../../style/index.css';
 import IndexList from "./list";
 
-
 export default class Index extends React.Component{
     render(){
-        console.log(this.props);
+        console.log(data.data)
         return (
                 <div className = 'body-left'>
                     <div className = 'left-header'>

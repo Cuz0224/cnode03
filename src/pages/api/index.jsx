@@ -1,7 +1,12 @@
 import React from 'react'
+import IndexList from "../index/list";
 
 export default class Api extends React.Component{
     render(){
-        return "api"
+        return (
+            <div>
+                <IndexList />
+            </div>
+        )
     }
 }

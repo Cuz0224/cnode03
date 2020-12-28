@@ -5,13 +5,15 @@ import Footer from "./pages/footer"
 import RightSide from "./pages/rightside"
 import './style/app.css';
 
+
 export default class App extends React.Component{
     render(){
-        return <div className = 'pageWrap'>
+        return(
+        <div className = 'pageWrap'>
             <Header />
             <RouterIndex />
             <RightSide />
             <Footer />
-        </div>;
+        </div>);
     }
 }

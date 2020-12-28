@@ -14,7 +14,7 @@ export default class RouterIndex extends React.Component{
                 <Route path = "/" exact render = {() =>(
                     <Redirect to="/index/all" />
                 )} />
-                <Route path = "/index/:id" component = {Index}/>
+                <Route path = "/index/" component = {Index}/>
                 <Route path = "/book" component = {Book}/>
                 <Route path = "/about" component = {About}/>
                 <Route path = "/api" component = {Api}/>

@@ -9,7 +9,7 @@
 .left-header{
     background-color: rgb(226, 226, 226);
     height: 35px;
-    padding-top: 1px;
+    padding-top: 15px;
 }
 
 #left-nav{
@@ -30,15 +30,12 @@
     color: rgb(140, 192, 35);
 }
 
-li:hover{
-    color: black;
-}
-
 #left-li01{
     margin-left: -20px;
 }
 
 .leftInner{
-    padding-bottom: 999px;
+    height: 800px;
+    background-color: white;
 
 }
